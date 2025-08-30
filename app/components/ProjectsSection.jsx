@@ -9,13 +9,13 @@ const ProjectData = [
         title: "Fusibles",
         description: "Project 1 description",
         image: "/images/Projects/1.png",
-        tag: ["All", "Machine Learning"],
+        tag: ["All", "Mixed and Virtual Reality"],
         previewUrl: "/"
     },
     {
         id: 2,
         title: "Development and Evaluation of an Integrated Tangible, Augmented, and Virtual Reality System for Professional Medical Training",
-        description: "Project 2 description",
+        description: "Mixed reality system for medical training, integrating an embedded hardware platform into 3D-printed heart models and incorporating hand tracking through Quest cameras.",
         image: "/images/Projects/2.png",
         tag: ["All", "Mixed and Virtual Reality"],
         previewUrl: "/"
@@ -23,33 +23,33 @@ const ProjectData = [
     {
         id: 3,
         title: "Virtual reality-based system for training in the use of transhumeral prostheses",
-        description: "Project 3 description",
+        description: "System for training in the use of a transhumeral mechanical prosthesis through a virtual reality environment, enabling users to learn the necessary movements for the activation of their prosthesis prior to receiving it, with the aim of facilitating its functional integration and reducing the abandonment rate.",
         image: "/images/Projects/3.png",
-        tag: ["All", "App Development"],
+        tag: ["All", "Mixed and Virtual Reality"],
         previewUrl: "/"
     },
     {
         id: 4,
         title: "Development of soft robots for embodied education of proprioception in early childhood",
-        description: "Project 3 description",
-        image: "/images/Projects/1.png",
-        tag: ["All", "App Development"],
+        description: "Project 4 description",
+        image: "/images/Projects/4.png",
+        tag: ["All", "Machine Learning"],
         previewUrl: "/"
     },
     {
         id: 5,
         title: "Breast abnormality classifier based on mammograms",
-        description: "Project 4 description",
-        image: "/images/Projects/1.png",
+        description: "An algorithm was designed to distinguish between benign and malignant abnormalities in 100 mammograms, achieving an accuracy of 0.72 through machine learning with neural networks.",
+        image: "/images/Projects/5.png",
         tag: ["All", "Machine Learning"],
         previewUrl: "/"
     },
     {
         id: 6,
         title: "App SoyBienestar",
-        description: "Project 6 description",
+        description: "Technological support tool to address the various emotional states and the challenges that were exacerbated during the pandemic, affecting individuals' mental health and well-being.",
         image: "/images/Projects/6.png",
-        tag: ["All", "Machine Learning"],
+        tag: ["All", "App Development"],
         previewUrl: "/"
     },
 ]
