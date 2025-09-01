@@ -2,6 +2,8 @@
 import React from 'react'
 import Image from 'next/image'
 import { TypeAnimation } from 'react-type-animation';
+import { motion } from 'framer-motion';
+import Link from 'next/link';
 
 const HeroSection = () => {
   return (
@@ -32,8 +34,18 @@ const HeroSection = () => {
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 </p>
                 <div>
-                    <button className='px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-transparent hover:bg-slate-800 text-white border border-white'>Projects</button>
-                    <button className='px-6 py-3 w-full sm:w-fit rounded-full bg-transparent hover:bg-slate-800 text-white border border-white mt-3'>CV</button>
+                    <Link 
+                        href="/#projects"
+                        className='px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-transparent hover:bg-slate-800 text-white border border-white'>
+                            Projects
+                    </Link>
+                    <a 
+                        href="/files/cv.pdf" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className='px-6 py-3 w-full sm:w-fit rounded-full bg-transparent hover:bg-slate-800 text-white border border-white mt-3'>
+                            CV
+                    </a>
                 </div>
             </div>
             <div className='col-span-4 place-self-center mt-4 lg:mt-0'>
@@ -52,4 +64,4 @@ const HeroSection = () => {
   )
 }
 
-export default HeroSection
+export default HeroSection;

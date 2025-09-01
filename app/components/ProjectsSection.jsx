@@ -66,10 +66,13 @@ const ProjectsSection = () => {
     );
 
     return (
-        <>
-        <h2 className="text-center text-4xl font-bold text-white mt-4 mb-4 md:mb-12">
-            My Projects
-        </h2>
+        <section id="projects">
+            <h2 className="text-center text-4xl font-bold text-white mt-4 mb-4 md:mb-12">
+                Projects
+            </h2>
+            <p className="text-center text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
+                Throughout my undergraduate studies and continuing afterwards, I have been involved in research teams working on the following projects.
+            </p>
         <div className="text-white flex flex-row justify-center gap-2 py-6">
             <ProjectTag 
                 onClick={handleTagChange} 
@@ -104,8 +107,8 @@ const ProjectsSection = () => {
                 previewUrl={project.previewUrl}
             />
         ))}</div>
-        </>
+        </section>
     )
 }
 
-export default ProjectsSection
+export default ProjectsSection;
