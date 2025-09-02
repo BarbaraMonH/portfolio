@@ -30,7 +30,7 @@ const ProjectData = [
         description: "System for training in the use of a transhumeral mechanical prosthesis through a virtual reality environment, enabling users to learn the necessary movements for the activation of their prosthesis prior to receiving it, with the aim of facilitating its functional integration and reducing the abandonment rate.",
         image: "/images/Projects/3.png",
         tag: ["All", "Mixed and Virtual Reality"],
-        previewUrl: "/files/Cartel_protesis.pdf",
+        previewUrl: ["https://repository.udistrital.edu.co/items/23e83415-44a0-4a9d-ad52-b080665c592d", "/files/Cartel_protesis.pdf"],
         centerImage: false,
         inProgress: false
     },

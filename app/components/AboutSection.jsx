@@ -44,7 +44,7 @@ const TAB_DATA = [
                 <li>Software and Hardware Developer at Center for Rehabilitation Engineering and Technology (Ibero CDMX)</li>
                 <li>Project Intern in Ontario Tech University</li>
                 <li>Product Development Engineer for Kimberly Clark México</li>
-                <li>Social Service at Center at Rehabilitation Engineering and Technology (Ibero CDMX)</li>
+                <li>Social Service at Center for Rehabilitation Engineering and Technology (Ibero CDMX)</li>
                 <li>App Developer in colaboration with the psychology department at Ibero CDMX</li>
                 <li>IT Assistant at Universidad Nacional Autónoma de México (UNAM)</li>
                 <li>Wearable Projects Developer in colaboration with fashion design students at Ibero CDMX</li>
@@ -73,9 +73,8 @@ const AboutSection = () => {
                 />
                 <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
                     <h2 className="text-4xl font-bold  text-white mb-4">About Me</h2>
-                    <p className="text-base lg:text-lg "> I'm a Biomedical Engineer with a passion for Software Development to create
-                        innovative solutions. I have experience developing projects with focus on
-                        technology.
+                    <p className="text-base lg:text-lg "> Biomedical engineer specializing in instrumentation and mixed reality, with experience developing interdisciplinary projects that integrate hardware, software, and 3D technologies. Skilled in research-oriented
+                        problem solving, teamwork, and leadership, with a strong focus on applying innovative engineering solutions to healthcare and human-centred challenges.
                     </p>
                     <div className="felx flex-row justify-start mt-8">
                         <TabButton 

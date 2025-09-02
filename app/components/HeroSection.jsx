@@ -40,7 +40,7 @@ const HeroSection = () => {
                             Projects
                     </Link>
                     <a 
-                        href="/files/cv.pdf" 
+                        href="/files/cv_master.pdf" 
                         target="_blank" 
                         rel="noopener noreferrer"
                         className='px-6 py-3 w-full sm:w-fit rounded-full bg-transparent hover:bg-slate-800 text-white border border-white mt-3'>

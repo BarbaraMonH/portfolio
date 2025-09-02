@@ -4,6 +4,7 @@ import React, {useState} from "react";
 import NavLink from "./NavLink";
 import {Bars3Icon, XMarkIcon} from "@heroicons/react/24/solid"
 import MenuOverlay from "./MenuOverlay";
+import Image from "next/image";
 
 const navLinks = [
     {
@@ -16,7 +17,7 @@ const navLinks = [
     },
     {
         title: "Download CV",
-        path: "/files/cv.pdf",
+        path: "/files/cv_master.pdf",
     },
 ]
 
@@ -29,7 +30,11 @@ const Navbar = () => {
                     href={"/"} 
                     className="text-2xl md:text-5xl text-white font-semibold"
                 >
-                    LOGO
+                    <Image src = "/images/LOGO.png"
+                        alt='About me image'  
+                        width={50} 
+                        height={50}
+                    />
                 </Link>
                 <div className="mobile-menu block md:hidden">
                     {!navbarOpen ? (
