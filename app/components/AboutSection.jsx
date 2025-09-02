@@ -11,8 +11,9 @@ const TAB_DATA = [
             <ul className="list-disc pl-2">
                 <li>Unity</li>
                 <li>Python</li>
-                <li>C</li>
                 <li>C#</li>
+                <li>JavaScript</li>
+                <li>C</li>
                 <li>Matlab</li>
                 <li>SQL</li>
                 <li>Vicon</li>
@@ -28,8 +29,9 @@ const TAB_DATA = [
         content: (
             <ul className="list-disc pl-2">
                 <li>Bachelor's Degree in Biomedical Engineering</li>
-                <li>Creation of Macros in Excel</li>
-                <li>Mobile App Development Workshop for People with Disabilities</li>
+                <li>Workshop: Determinant Criteria in the Innovation Process – 43rd National Congress of Biomedical Engineering (2020)</li>
+                <li>Creation of Macros in Excel - Ibero-American University Mexico City</li>
+                <li>Mobile App Development Workshop for People with Disabilities - Cultural Center of Spain in México</li>
             </ul>
         )
     },
@@ -38,18 +40,21 @@ const TAB_DATA = [
         id: "experience",
         content: (
             <ul className="list-disc pl-2">
-                <li>Software Developer in Synlab</li>
+                <li>Software Developer at Synlab</li>
+                <li>Software and Hardware Developer at Center for Rehabilitation Engineering and Technology (Ibero CDMX)</li>
                 <li>Project Intern in Ontario Tech University</li>
                 <li>Product Development Engineer for Kimberly Clark México</li>
-                <li>Social Service in Ibero CDMX</li>
-                <li>IT Assistant for Universidad Nacional Autónoma de México</li>
+                <li>Social Service at Center at Rehabilitation Engineering and Technology (Ibero CDMX)</li>
+                <li>App Developer in colaboration with the psychology department at Ibero CDMX</li>
+                <li>IT Assistant at Universidad Nacional Autónoma de México (UNAM)</li>
+                <li>Wearable Projects Developer in colaboration with fashion design students at Ibero CDMX</li>
             </ul>
         )
     }
 ]
 
 const AboutSection = () => {
-    const [tab, setTab] = useState("skills");
+    const [tab, setTab] = useState("education");
     const [isPending, startTransition] = useTransition();
 
     const handleTabChange = (id) => {
@@ -74,18 +79,18 @@ const AboutSection = () => {
                     </p>
                     <div className="felx flex-row justify-start mt-8">
                         <TabButton 
-                        selectTab={() => handleTabChange("skills")} 
-                        active={tab === "skills"}
-                        > 
-                            {" "}
-                            Skills{" "}
-                        </TabButton>
-                        <TabButton 
                         selectTab={() => handleTabChange("education")} 
                         active={tab === "education"}
                         > 
                             {" "}
                             Eduacation{" "}
+                        </TabButton>
+                        <TabButton 
+                        selectTab={() => handleTabChange("skills")} 
+                        active={tab === "skills"}
+                        > 
+                            {" "}
+                            Skills{" "}
                         </TabButton>
                         <TabButton 
                         selectTab={() => handleTabChange("experience")} 

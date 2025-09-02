@@ -31,7 +31,7 @@ const HeroSection = () => {
                     />
                 </h1>
                 <p className='text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl'>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Just a girl trying to be the difference that the world needs.
                 </p>
                 <div>
                     <Link 
