@@ -17,7 +17,7 @@ const navLinks = [
     },
     {
         title: "Download CV",
-        path: "/files/cv_master.pdf",
+        path: "/files/cv.pdf",
     },
 ]
 
